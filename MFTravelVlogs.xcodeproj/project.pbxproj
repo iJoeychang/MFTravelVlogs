@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1795E25125EDE1A7007BD7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E25025EDE1A7007BD7D8 /* AppDelegate.swift */; };
+		1795E25325EDE1A7007BD7D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E25225EDE1A7007BD7D8 /* SceneDelegate.swift */; };
+		1795E25A25EDE1A9007BD7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1795E25925EDE1A9007BD7D8 /* Assets.xcassets */; };
+		1795E25D25EDE1A9007BD7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1795E25B25EDE1A9007BD7D8 /* LaunchScreen.storyboard */; };
+		1795E27425EDE26F007BD7D8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26725EDE26F007BD7D8 /* Roboto-Medium.ttf */; };
+		1795E27525EDE26F007BD7D8 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26825EDE26F007BD7D8 /* Roboto-Light.ttf */; };
+		1795E27625EDE26F007BD7D8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26925EDE26F007BD7D8 /* Roboto-Regular.ttf */; };
+		1795E27725EDE26F007BD7D8 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26A25EDE26F007BD7D8 /* Roboto-MediumItalic.ttf */; };
+		1795E27825EDE26F007BD7D8 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26B25EDE26F007BD7D8 /* Roboto-ThinItalic.ttf */; };
+		1795E27925EDE26F007BD7D8 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26C25EDE26F007BD7D8 /* Roboto-BoldItalic.ttf */; };
+		1795E27A25EDE26F007BD7D8 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26D25EDE26F007BD7D8 /* Roboto-LightItalic.ttf */; };
+		1795E27B25EDE26F007BD7D8 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26E25EDE26F007BD7D8 /* Roboto-Italic.ttf */; };
+		1795E27C25EDE26F007BD7D8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1795E26F25EDE26F007BD7D8 /* LICENSE.txt */; };
+		1795E27D25EDE26F007BD7D8 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E27025EDE26F007BD7D8 /* Roboto-BlackItalic.ttf */; };
+		1795E27E25EDE26F007BD7D8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E27125EDE26F007BD7D8 /* Roboto-Bold.ttf */; };
+		1795E27F25EDE26F007BD7D8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E27225EDE26F007BD7D8 /* Roboto-Thin.ttf */; };
+		1795E28025EDE26F007BD7D8 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1795E27325EDE26F007BD7D8 /* Roboto-Black.ttf */; };
+		1795E28625EDE2B4007BD7D8 /* UIFont+SystemFontOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = 1795E28525EDE2B4007BD7D8 /* UIFont+SystemFontOverride.m */; };
+		1795E29A25EDE33F007BD7D8 /* newYorkFlip-clip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E28B25EDE33F007BD7D8 /* newYorkFlip-clip.mp4 */; };
+		1795E29B25EDE33F007BD7D8 /* bulletTrain-clip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E28C25EDE33F007BD7D8 /* bulletTrain-clip.mp4 */; };
+		1795E29C25EDE33F007BD7D8 /* monkey-clip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E28D25EDE33F007BD7D8 /* monkey-clip.mp4 */; };
+		1795E29D25EDE33F007BD7D8 /* shark-clip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E28E25EDE33F007BD7D8 /* shark-clip.mp4 */; };
+		1795E29E25EDE33F007BD7D8 /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29025EDE33F007BD7D8 /* monkey.mp4 */; };
+		1795E29F25EDE33F007BD7D8 /* newYorkFlip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29125EDE33F007BD7D8 /* newYorkFlip.mp4 */; };
+		1795E2A025EDE33F007BD7D8 /* bulletTrain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29225EDE33F007BD7D8 /* bulletTrain.mp4 */; };
+		1795E2A125EDE33F007BD7D8 /* shark.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29325EDE33F007BD7D8 /* shark.mp4 */; };
+		1795E2A225EDE33F007BD7D8 /* shark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29525EDE33F007BD7D8 /* shark.png */; };
+		1795E2A325EDE33F007BD7D8 /* foxVillage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29625EDE33F007BD7D8 /* foxVillage.png */; };
+		1795E2A425EDE33F007BD7D8 /* bulletTrain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29725EDE33F007BD7D8 /* bulletTrain.png */; };
+		1795E2A525EDE33F007BD7D8 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29825EDE33F007BD7D8 /* monkey.png */; };
+		1795E2A625EDE33F007BD7D8 /* newYorkFlip.png in Resources */ = {isa = PBXBuildFile; fileRef = 1795E29925EDE33F007BD7D8 /* newYorkFlip.png */; };
+		1795E2AA25EDE373007BD7D8 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2A925EDE373007BD7D8 /* Video.swift */; };
+		1795E2AE25EDE3E6007BD7D8 /* VideoClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2AD25EDE3E6007BD7D8 /* VideoClip.swift */; };
+		1795E2B625EDE4A7007BD7D8 /* Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2B525EDE4A7007BD7D8 /* Layouts.swift */; };
+		1795E2B925EDE4E2007BD7D8 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2B825EDE4E2007BD7D8 /* VideoTableViewCell.swift */; };
+		1795E2BC25EDE562007BD7D8 /* VideoLooperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2BB25EDE562007BD7D8 /* VideoLooperView.swift */; };
+		1795E2BF25EDE58D007BD7D8 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2BE25EDE58D007BD7D8 /* VideoPlayerView.swift */; };
+		1795E2C425EDFF62007BD7D8 /* VideoFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795E2C325EDFF62007BD7D8 /* VideoFeedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1795E24D25EDE1A7007BD7D8 /* MFTravelVlogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFTravelVlogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1795E25025EDE1A7007BD7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1795E25225EDE1A7007BD7D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1795E25925EDE1A9007BD7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1795E25C25EDE1A9007BD7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1795E25E25EDE1A9007BD7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1795E26725EDE26F007BD7D8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1795E26825EDE26F007BD7D8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		1795E26925EDE26F007BD7D8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1795E26A25EDE26F007BD7D8 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1795E26B25EDE26F007BD7D8 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1795E26C25EDE26F007BD7D8 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1795E26D25EDE26F007BD7D8 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		1795E26E25EDE26F007BD7D8 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		1795E26F25EDE26F007BD7D8 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		1795E27025EDE26F007BD7D8 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1795E27125EDE26F007BD7D8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1795E27225EDE26F007BD7D8 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		1795E27325EDE26F007BD7D8 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		1795E28225EDE2B4007BD7D8 /* MFTravelVlogs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MFTravelVlogs-Bridging-Header.h"; sourceTree = "<group>"; };
+		1795E28325EDE2B4007BD7D8 /* UIFont+SystemFontOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SystemFontOverride.h"; sourceTree = "<group>"; };
+		1795E28425EDE2B4007BD7D8 /* TravelVlogs-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TravelVlogs-Bridging-Header.h"; sourceTree = "<group>"; };
+		1795E28525EDE2B4007BD7D8 /* UIFont+SystemFontOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SystemFontOverride.m"; sourceTree = "<group>"; };
+		1795E28B25EDE33F007BD7D8 /* newYorkFlip-clip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "newYorkFlip-clip.mp4"; sourceTree = "<group>"; };
+		1795E28C25EDE33F007BD7D8 /* bulletTrain-clip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bulletTrain-clip.mp4"; sourceTree = "<group>"; };
+		1795E28D25EDE33F007BD7D8 /* monkey-clip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "monkey-clip.mp4"; sourceTree = "<group>"; };
+		1795E28E25EDE33F007BD7D8 /* shark-clip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shark-clip.mp4"; sourceTree = "<group>"; };
+		1795E29025EDE33F007BD7D8 /* monkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.mp4; sourceTree = "<group>"; };
+		1795E29125EDE33F007BD7D8 /* newYorkFlip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newYorkFlip.mp4; sourceTree = "<group>"; };
+		1795E29225EDE33F007BD7D8 /* bulletTrain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bulletTrain.mp4; sourceTree = "<group>"; };
+		1795E29325EDE33F007BD7D8 /* shark.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark.mp4; sourceTree = "<group>"; };
+		1795E29525EDE33F007BD7D8 /* shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shark.png; sourceTree = "<group>"; };
+		1795E29625EDE33F007BD7D8 /* foxVillage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foxVillage.png; sourceTree = "<group>"; };
+		1795E29725EDE33F007BD7D8 /* bulletTrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulletTrain.png; sourceTree = "<group>"; };
+		1795E29825EDE33F007BD7D8 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		1795E29925EDE33F007BD7D8 /* newYorkFlip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newYorkFlip.png; sourceTree = "<group>"; };
+		1795E2A925EDE373007BD7D8 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		1795E2AD25EDE3E6007BD7D8 /* VideoClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClip.swift; sourceTree = "<group>"; };
+		1795E2B525EDE4A7007BD7D8 /* Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouts.swift; sourceTree = "<group>"; };
+		1795E2B825EDE4E2007BD7D8 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		1795E2BB25EDE562007BD7D8 /* VideoLooperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLooperView.swift; sourceTree = "<group>"; };
+		1795E2BE25EDE58D007BD7D8 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		1795E2C325EDFF62007BD7D8 /* VideoFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1795E24A25EDE1A7007BD7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1795E24425EDE1A6007BD7D8 = {
+			isa = PBXGroup;
+			children = (
+				1795E24F25EDE1A7007BD7D8 /* MFTravelVlogs */,
+				1795E24E25EDE1A7007BD7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1795E24E25EDE1A7007BD7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1795E24D25EDE1A7007BD7D8 /* MFTravelVlogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1795E24F25EDE1A7007BD7D8 /* MFTravelVlogs */ = {
+			isa = PBXGroup;
+			children = (
+				1795E2B025EDE420007BD7D8 /* Views */,
+				1795E2A825EDE35D007BD7D8 /* Models */,
+				1795E28925EDE33F007BD7D8 /* Local Videos */,
+				1795E26525EDE23A007BD7D8 /* Resources */,
+				1795E25025EDE1A7007BD7D8 /* AppDelegate.swift */,
+				1795E25225EDE1A7007BD7D8 /* SceneDelegate.swift */,
+				1795E2C325EDFF62007BD7D8 /* VideoFeedViewController.swift */,
+				1795E2BE25EDE58D007BD7D8 /* VideoPlayerView.swift */,
+				1795E2BB25EDE562007BD7D8 /* VideoLooperView.swift */,
+				1795E25E25EDE1A9007BD7D8 /* Info.plist */,
+			);
+			path = MFTravelVlogs;
+			sourceTree = "<group>";
+		};
+		1795E26525EDE23A007BD7D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1795E26625EDE26F007BD7D8 /* Roboto */,
+				1795E25B25EDE1A9007BD7D8 /* LaunchScreen.storyboard */,
+				1795E25925EDE1A9007BD7D8 /* Assets.xcassets */,
+				1795E28425EDE2B4007BD7D8 /* TravelVlogs-Bridging-Header.h */,
+				1795E28325EDE2B4007BD7D8 /* UIFont+SystemFontOverride.h */,
+				1795E28525EDE2B4007BD7D8 /* UIFont+SystemFontOverride.m */,
+				1795E28225EDE2B4007BD7D8 /* MFTravelVlogs-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1795E26625EDE26F007BD7D8 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				1795E26725EDE26F007BD7D8 /* Roboto-Medium.ttf */,
+				1795E26825EDE26F007BD7D8 /* Roboto-Light.ttf */,
+				1795E26925EDE26F007BD7D8 /* Roboto-Regular.ttf */,
+				1795E26A25EDE26F007BD7D8 /* Roboto-MediumItalic.ttf */,
+				1795E26B25EDE26F007BD7D8 /* Roboto-ThinItalic.ttf */,
+				1795E26C25EDE26F007BD7D8 /* Roboto-BoldItalic.ttf */,
+				1795E26D25EDE26F007BD7D8 /* Roboto-LightItalic.ttf */,
+				1795E26E25EDE26F007BD7D8 /* Roboto-Italic.ttf */,
+				1795E26F25EDE26F007BD7D8 /* LICENSE.txt */,
+				1795E27025EDE26F007BD7D8 /* Roboto-BlackItalic.ttf */,
+				1795E27125EDE26F007BD7D8 /* Roboto-Bold.ttf */,
+				1795E27225EDE26F007BD7D8 /* Roboto-Thin.ttf */,
+				1795E27325EDE26F007BD7D8 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		1795E28925EDE33F007BD7D8 /* Local Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1795E28A25EDE33F007BD7D8 /* TravelVidsClips */,
+				1795E28F25EDE33F007BD7D8 /* TravelVids */,
+				1795E29425EDE33F007BD7D8 /* Thumbnails */,
+			);
+			path = "Local Videos";
+			sourceTree = "<group>";
+		};
+		1795E28A25EDE33F007BD7D8 /* TravelVidsClips */ = {
+			isa = PBXGroup;
+			children = (
+				1795E28B25EDE33F007BD7D8 /* newYorkFlip-clip.mp4 */,
+				1795E28C25EDE33F007BD7D8 /* bulletTrain-clip.mp4 */,
+				1795E28D25EDE33F007BD7D8 /* monkey-clip.mp4 */,
+				1795E28E25EDE33F007BD7D8 /* shark-clip.mp4 */,
+			);
+			path = TravelVidsClips;
+			sourceTree = "<group>";
+		};
+		1795E28F25EDE33F007BD7D8 /* TravelVids */ = {
+			isa = PBXGroup;
+			children = (
+				1795E29025EDE33F007BD7D8 /* monkey.mp4 */,
+				1795E29125EDE33F007BD7D8 /* newYorkFlip.mp4 */,
+				1795E29225EDE33F007BD7D8 /* bulletTrain.mp4 */,
+				1795E29325EDE33F007BD7D8 /* shark.mp4 */,
+			);
+			path = TravelVids;
+			sourceTree = "<group>";
+		};
+		1795E29425EDE33F007BD7D8 /* Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				1795E29525EDE33F007BD7D8 /* shark.png */,
+				1795E29625EDE33F007BD7D8 /* foxVillage.png */,
+				1795E29725EDE33F007BD7D8 /* bulletTrain.png */,
+				1795E29825EDE33F007BD7D8 /* monkey.png */,
+				1795E29925EDE33F007BD7D8 /* newYorkFlip.png */,
+			);
+			path = Thumbnails;
+			sourceTree = "<group>";
+		};
+		1795E2A825EDE35D007BD7D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1795E2A925EDE373007BD7D8 /* Video.swift */,
+				1795E2AD25EDE3E6007BD7D8 /* VideoClip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1795E2B025EDE420007BD7D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1795E2B525EDE4A7007BD7D8 /* Layouts.swift */,
+				1795E2B825EDE4E2007BD7D8 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1795E24C25EDE1A7007BD7D8 /* MFTravelVlogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1795E26125EDE1A9007BD7D8 /* Build configuration list for PBXNativeTarget "MFTravelVlogs" */;
+			buildPhases = (
+				1795E24925EDE1A7007BD7D8 /* Sources */,
+				1795E24A25EDE1A7007BD7D8 /* Frameworks */,
+				1795E24B25EDE1A7007BD7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFTravelVlogs;
+			productName = MFTravelVlogs;
+			productReference = 1795E24D25EDE1A7007BD7D8 /* MFTravelVlogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1795E24525EDE1A6007BD7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1795E24C25EDE1A7007BD7D8 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 1795E24825EDE1A6007BD7D8 /* Build configuration list for PBXProject "MFTravelVlogs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1795E24425EDE1A6007BD7D8;
+			productRefGroup = 1795E24E25EDE1A7007BD7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1795E24C25EDE1A7007BD7D8 /* MFTravelVlogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1795E24B25EDE1A7007BD7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1795E2A525EDE33F007BD7D8 /* monkey.png in Resources */,
+				1795E29A25EDE33F007BD7D8 /* newYorkFlip-clip.mp4 in Resources */,
+				1795E2A425EDE33F007BD7D8 /* bulletTrain.png in Resources */,
+				1795E2A125EDE33F007BD7D8 /* shark.mp4 in Resources */,
+				1795E27E25EDE26F007BD7D8 /* Roboto-Bold.ttf in Resources */,
+				1795E29E25EDE33F007BD7D8 /* monkey.mp4 in Resources */,
+				1795E27C25EDE26F007BD7D8 /* LICENSE.txt in Resources */,
+				1795E27925EDE26F007BD7D8 /* Roboto-BoldItalic.ttf in Resources */,
+				1795E27625EDE26F007BD7D8 /* Roboto-Regular.ttf in Resources */,
+				1795E27A25EDE26F007BD7D8 /* Roboto-LightItalic.ttf in Resources */,
+				1795E2A325EDE33F007BD7D8 /* foxVillage.png in Resources */,
+				1795E27425EDE26F007BD7D8 /* Roboto-Medium.ttf in Resources */,
+				1795E29D25EDE33F007BD7D8 /* shark-clip.mp4 in Resources */,
+				1795E2A225EDE33F007BD7D8 /* shark.png in Resources */,
+				1795E2A025EDE33F007BD7D8 /* bulletTrain.mp4 in Resources */,
+				1795E25D25EDE1A9007BD7D8 /* LaunchScreen.storyboard in Resources */,
+				1795E27D25EDE26F007BD7D8 /* Roboto-BlackItalic.ttf in Resources */,
+				1795E27F25EDE26F007BD7D8 /* Roboto-Thin.ttf in Resources */,
+				1795E29C25EDE33F007BD7D8 /* monkey-clip.mp4 in Resources */,
+				1795E27525EDE26F007BD7D8 /* Roboto-Light.ttf in Resources */,
+				1795E27825EDE26F007BD7D8 /* Roboto-ThinItalic.ttf in Resources */,
+				1795E28025EDE26F007BD7D8 /* Roboto-Black.ttf in Resources */,
+				1795E27725EDE26F007BD7D8 /* Roboto-MediumItalic.ttf in Resources */,
+				1795E29B25EDE33F007BD7D8 /* bulletTrain-clip.mp4 in Resources */,
+				1795E2A625EDE33F007BD7D8 /* newYorkFlip.png in Resources */,
+				1795E25A25EDE1A9007BD7D8 /* Assets.xcassets in Resources */,
+				1795E27B25EDE26F007BD7D8 /* Roboto-Italic.ttf in Resources */,
+				1795E29F25EDE33F007BD7D8 /* newYorkFlip.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1795E24925EDE1A7007BD7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1795E2B625EDE4A7007BD7D8 /* Layouts.swift in Sources */,
+				1795E2AE25EDE3E6007BD7D8 /* VideoClip.swift in Sources */,
+				1795E25125EDE1A7007BD7D8 /* AppDelegate.swift in Sources */,
+				1795E28625EDE2B4007BD7D8 /* UIFont+SystemFontOverride.m in Sources */,
+				1795E2C425EDFF62007BD7D8 /* VideoFeedViewController.swift in Sources */,
+				1795E2BC25EDE562007BD7D8 /* VideoLooperView.swift in Sources */,
+				1795E2B925EDE4E2007BD7D8 /* VideoTableViewCell.swift in Sources */,
+				1795E25325EDE1A7007BD7D8 /* SceneDelegate.swift in Sources */,
+				1795E2AA25EDE373007BD7D8 /* Video.swift in Sources */,
+				1795E2BF25EDE58D007BD7D8 /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1795E25B25EDE1A9007BD7D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1795E25C25EDE1A9007BD7D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1795E25F25EDE1A9007BD7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1795E26025EDE1A9007BD7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1795E26225EDE1A9007BD7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3556NPPACN;
+				INFOPLIST_FILE = MFTravelVlogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch.ectest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ectestDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "MFTravelVlogs/Resources/MFTravelVlogs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1795E26325EDE1A9007BD7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3556NPPACN;
+				INFOPLIST_FILE = MFTravelVlogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch.ectest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ectestDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "MFTravelVlogs/Resources/MFTravelVlogs-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1795E24825EDE1A6007BD7D8 /* Build configuration list for PBXProject "MFTravelVlogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1795E25F25EDE1A9007BD7D8 /* Debug */,
+				1795E26025EDE1A9007BD7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1795E26125EDE1A9007BD7D8 /* Build configuration list for PBXNativeTarget "MFTravelVlogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1795E26225EDE1A9007BD7D8 /* Debug */,
+				1795E26325EDE1A9007BD7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1795E24525EDE1A6007BD7D8 /* Project object */;
+}
